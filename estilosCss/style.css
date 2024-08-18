@@ -238,7 +238,7 @@ h4 {
   -webkit-transform: rotate(360deg);
 }
 
-/* .misHabilidades {
+.misHabilidades {
   margin: 50px;
   font-size: 30px;
   width: 100%;
@@ -250,7 +250,7 @@ h4 {
     both;
   animation: focus-in-contract 8s ease 2s 1 alternate forwards 0.99s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-} */
+} 
 
 @media screen and (max-width: 600px) {
   .imgCertificado {
