@@ -1,0 +1,23 @@
+// condicionales 
+
+// @for $i from 1 to 15 {
+//   .caja-#{$i}  {
+//     width: 100% / $i
+
+//   }
+// }      
+
+// EACH
+
+// @each $colores in blue, red, black, white {
+//   .colores--#{$colores} {
+//     background: $colores;
+//   }
+// }
+
+
+
+   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet"> -->
+      <!-- Letras de los titulos -->
