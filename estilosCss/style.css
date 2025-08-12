@@ -87,14 +87,16 @@ h4 {
   justify-content: center;
   margin-bottom: 50px;
   width: 100%;
+ 
 }
+
 .boxCenter {
   display: flex;
   background: linear-gradient(0deg, rgb(44, 82, 91) 27%, #2e2d2c 100%);
   margin: 30px;
   max-width: 800px;
-
   border-radius: 20px;
+  
 }
 
 .item__titulo {
@@ -102,6 +104,7 @@ h4 {
   color: #2eaebf;
   width: 100%;
   margin: auto;
+  
 }
 
 .navbarLetras {
@@ -209,10 +212,9 @@ h4 {
 
 .contenedorLogos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
   grid-template-rows: repeat(2, 250px);
   grid-auto-flow: row;
-
   gap: 10px;
   align-items: center;
   justify-items: center;
@@ -220,10 +222,11 @@ h4 {
 }
 .item_logos {
   padding: 10px;
+
 }
 
 .logoshc {
-
+  border-radius: 20px; 
   width: 200px;
   box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
@@ -253,7 +256,7 @@ h4 {
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 } 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .imgCertificado {
     width: 500px;
   }
