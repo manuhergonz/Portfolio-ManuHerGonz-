@@ -2,109 +2,250 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport"content="width=device-width, initial-scale=1.0" />
-    <title>Manuhergonz!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Manuel Hernandez Gonzalez | Desarrollador Web &amp; App Mobile</title>
+    <meta name="description" content="Portafolio de Manuel Hernandez Gonzalez, Desarrollador Web y App Mobile. Especializado en HTML, CSS, JavaScript, Bootstrap y Java."/>
     <link rel="shortcut icon" href="img/manuAct.jpg"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="estilosCss/style.css" />
-    <meta name="description" content="Portafolio De Manuhergonz, Desarrollador Web"/>
-    <meta name="keywords"content="Portafolio,"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
+    <link rel="stylesheet" href="estilosCss/style.css"/>
   </head>
 
   <body>
 
-    </nav> 
-    <div class="contenedor_informacion">
-    <div class="boxCenter">
-      <div class="img__box">
-        <img src="img/yoFoto3.jpg" class="imgHome"/>
-      </div>
-      <div class="item__titulo">
-        <h1 class="titulo__h1">Manuel Hernandez Gonzalez</h1>
-        <h2 class="titulo__h2">  <  Desarrolador App Mobile📱⁄>💻</h2> 
-        <p class="parrafo"> Soy un programador creativo y orientado a soluciones con una sólida formación en ciencias de la computación. Me enorgullece mi capacidad para resolver problemas complejos y desarrollar aplicaciones innovadoras. Disfruto trabajando en equipo y aprendiendo de mis colegas.</p>  
-      </div>  
-      </div>
+    <!-- Fondo decorativo con efecto parallax -->
+    <div class="parallax-bg" aria-hidden="true">
+      <span class="parallax-bg__orb parallax-bg__orb--1" data-parallax="0.18"></span>
+      <span class="parallax-bg__orb parallax-bg__orb--2" data-parallax="-0.12"></span>
+      <span class="parallax-bg__orb parallax-bg__orb--3" data-parallax="0.08"></span>
     </div>
 
-    <div class="misHabilidades">Mis Conocimientos!</div>
-    <div class="contenedorLogos" id="sobreMi">
+    <nav class="navbar" id="navbar">
+      <a class="navbar__logo" href="#inicio">
+        <span class="navbar__logo-bracket">&lt;</span>MAHG<span class="navbar__logo-bracket"> /&gt;</span>
+      </a>
+      <ul class="navbar__links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobreMi">Sobre mí</a></li>
+        <li><a href="#conocimientos">Conocimientos</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contactoFooter">Contacto</a></li>
+      </ul>
+    </nav>
 
+    <!-- PORTADA: presentación a pantalla completa -->
+    <section class="portada" id="inicio" data-reveal-stagger>
+      <p class="portada__saludo">&lt; Hola, soy /&gt;</p>
+      <h1 class="portada__nombre">Manuel Hernandez Gonzalez</h1>
+      <p class="portada__rol">Desarrollador Web &amp; App Mobile</p>
+      <div class="portada__acciones">
+        <a href="#sobreMi" class="btnProyecto">Conóceme</a>
+        <a href="#proyectos" class="btnProyecto btnProyecto--alt">Ver proyectos</a>
+      </div>
+      <a href="#sobreMi" class="portada__scroll" aria-label="Ir a la sección Sobre mí">
+        <span class="portada__raton"><span class="portada__rueda"></span></span>
+      </a>
+    </section>
 
-      <div class="item_logos">
-        <img class="logoshc" src="./img/LogoHtmlPng.png" alt="logoHtm" />
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section class="contenedor_informacion" id="sobreMi">
+      <div class="boxCenter" data-parallax="0.08">
+        <div class="img__box" data-reveal="left">
+          <img src="img/yoFoto3.jpg" class="imgHome" alt="Foto de Manuel Hernandez Gonzalez"/>
+        </div>
+        <div class="item__titulo" data-reveal="right">
+          <h2 class="titulo__h1">Sobre mí</h2>
+          <p class="parrafo">Soy un programador creativo y orientado a soluciones con una sólida formación en ciencias de la computación. Me enorgullece mi capacidad para resolver problemas complejos y desarrollar aplicaciones innovadoras. Disfruto trabajando en equipo y aprendiendo de mis colegas.</p>
+        </div>
       </div>
-      <div class="item_logos">
-        <img class="logoshc" src="./img/logoPNGcss.png" alt="logoCss" />
-      </div>
-      <div class="item_logos">
-        <img class="logoshc" src="./img/Bootstrap-New2" alt="logoBootstrap" />
-      </div>
-      <div class="item_logos">
-        <img class="logoshc" src="/img/JavaLogoPng.png" alt="logoHtm" />
-      </div>
-      <div class="item_logos">
-        <img class="logoshc" src="./img/gitLogoPng.png" alt="logoGitHub">
-      </div>
-      <div class="item_logos">
-        <img class="logoshc" src="./img/github(1).png" alt="logoGitHub">
-      </div>
-   
-      
-    </div>
+    </section>
 
-    <div class="d-flex justify-content-evenly certificadoNucba">
-      <img src="img/certificadoNucba.jpg" class="img-fluid imgCertificado" alt="CertificadoNucba"/>
-    </div>
+    <!-- SECCIÓN CONOCIMIENTOS -->
+    <section id="conocimientos">
+      <h2 class="misHabilidades" data-animate>Mis Conocimientos</h2>
 
-    <div class="contenedorbotonDescarga">
-      <button class="btn" type="button">
-        <a href="/img/cvManuHergonz.pdf" download="CV Manuhergonz">Descargar CV</a>
-        <img class="imgDescarga" src="./img/descargaPng.png" alt="imagen de Descarga"/>
-      </button>
-    </div>
+      <div class="skillsGrid" data-reveal-stagger>
+        <div class="skillCard">
+          <i class="devicon-html5-plain colored skillCard__icono"></i>
+          <span class="skillCard__nombre">HTML5</span>
+        </div>
+        <div class="skillCard">
+          <i class="devicon-css3-plain colored skillCard__icono"></i>
+          <span class="skillCard__nombre">CSS3</span>
+        </div>
+        <div class="skillCard">
+          <i class="devicon-javascript-plain colored skillCard__icono"></i>
+          <span class="skillCard__nombre">JavaScript</span>
+        </div>
+        <div class="skillCard">
+          <i class="devicon-bootstrap-plain colored skillCard__icono"></i>
+          <span class="skillCard__nombre">Bootstrap</span>
+        </div>
+        <div class="skillCard">
+          <i class="devicon-java-plain colored skillCard__icono"></i>
+          <span class="skillCard__nombre">Java</span>
+        </div>
+        <div class="skillCard">
+          <i class="devicon-git-plain colored skillCard__icono"></i>
+          <span class="skillCard__nombre">Git</span>
+        </div>
+        <div class="skillCard">
+          <i class="devicon-github-original skillCard__icono skillCard__icono--github"></i>
+          <span class="skillCard__nombre">GitHub</span>
+        </div>
+      </div>
+    </section>
 
-    <footer class="contenedorFooter" id="contactoFooter">
-      <div class="itemsRedes">
-        <a href="https://github.com/manuhergonz" target="_blank">
-          <img src="./img/githubLogo.png" class="logosRS" alt="logoGitHub"
-        /></a>
+    <!-- SECCIÓN CERTIFICACIÓN -->
+    <section class="seccionCertificado">
+      <h2 class="tituloSeccion" data-reveal>Certificación</h2>
+      <div class="certificadoNucba" data-reveal>
+        <img src="img/certificadoNucba.jpg" class="imgCertificado" alt="Certificado Nucba"/>
+      </div>
+    </section>
+
+    <!-- SECCIÓN PROYECTOS -->
+    <section id="proyectos" class="seccionProyectos">
+      <h2 class="tituloSeccion" data-reveal>Mis Proyectos</h2>
+
+      <div class="gridProyectos" data-reveal-stagger>
+
+        <article class="cardProyecto">
+          <div class="cardProyecto__header">
+            <span class="cardProyecto__tipo">Web</span>
+          </div>
+          <h3 class="cardProyecto__titulo">Portafolio Personal</h3>
+          <p class="cardProyecto__desc">Sitio web personal desarrollado desde cero con HTML, CSS y JavaScript. Diseño responsivo con animaciones CSS y tema oscuro.</p>
+          <div class="cardProyecto__stack">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Bootstrap</span>
+          </div>
+          <div class="cardProyecto__links">
+            <a href="https://github.com/manuhergonz/Portfolio-ManuHerGonz-" target="_blank" rel="noopener noreferrer" class="btnProyecto">
+              Ver código
+            </a>
+          </div>
+        </article>
+
+        <article class="cardProyecto">
+          <div class="cardProyecto__header">
+            <span class="cardProyecto__tipo">App</span>
+          </div>
+          <h3 class="cardProyecto__titulo">Calculadora</h3>
+          <p class="cardProyecto__desc">Aplicación de calculadora con operaciones básicas: suma, resta, multiplicación y división. Desarrollada con lógica en JavaScript puro.</p>
+          <div class="cardProyecto__stack">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="cardProyecto__links">
+            <a href="https://github.com/manuhergonz" target="_blank" rel="noopener noreferrer" class="btnProyecto">
+              Ver código
+            </a>
+          </div>
+        </article>
+
+        <article class="cardProyecto">
+          <div class="cardProyecto__header">
+            <span class="cardProyecto__tipo">Mobile</span>
+          </div>
+          <h3 class="cardProyecto__titulo">Próximo Proyecto</h3>
+          <p class="cardProyecto__desc">En desarrollo. ¿Tienes una idea interesante? Estoy abierto a colaboraciones y nuevos retos. Contáctame y lo hacemos realidad.</p>
+          <div class="cardProyecto__stack">
+            <span class="tag">Java</span>
+            <span class="tag">Mobile</span>
+          </div>
+          <div class="cardProyecto__links">
+            <a href="https://wa.me/34691861697" target="_blank" rel="noopener noreferrer" class="btnProyecto btnProyecto--alt">
+              Colaborar
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <footer class="footer" id="contactoFooter">
+      <div class="footer__grid" data-reveal-stagger>
+
+        <!-- Marca -->
+        <div class="footer__col footer__brand">
+          <a class="footer__logo" href="#inicio">
+            <span class="footer__logo-bracket">&lt;</span>MAHG<span class="footer__logo-bracket"> /&gt;</span>
+          </a>
+          <p class="footer__tagline">Desarrollador Web &amp; App Mobile. Creando soluciones digitales creativas y funcionales.</p>
+          <div class="footer__redes">
+            <a href="https://github.com/manuhergonz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="redSocial">
+              <svg class="redSocial__icono" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/34691861697" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="redSocial">
+              <svg class="redSocial__icono" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M16.04 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.6 4.49 1.73 6.44L3.1 28.8l6.46-1.69a12.83 12.83 0 0 0 6.48 1.75h.01c7.1 0 12.87-5.77 12.87-12.87 0-3.44-1.34-6.67-3.77-9.1a12.78 12.78 0 0 0-9.1-3.69zm0 23.4h-.01a10.66 10.66 0 0 1-5.43-1.49l-.39-.23-4.03 1.06 1.08-3.93-.25-.4a10.63 10.63 0 0 1-1.63-5.69c0-5.9 4.8-10.7 10.71-10.7 2.86 0 5.55 1.11 7.57 3.14a10.63 10.63 0 0 1 3.13 7.57c0 5.9-4.8 10.69-10.7 10.69zm5.87-8.01c-.32-.16-1.9-.94-2.2-1.05-.29-.11-.5-.16-.72.16-.21.32-.82 1.05-1.01 1.27-.19.21-.37.24-.69.08-.32-.16-1.36-.5-2.59-1.6-.96-.85-1.6-1.91-1.79-2.23-.19-.32-.02-.5.14-.66.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.74-.99-2.38-.26-.62-.52-.54-.72-.55l-.61-.01c-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.66 0 1.57 1.14 3.08 1.3 3.3.16.21 2.25 3.43 5.44 4.81.76.33 1.35.52 1.81.67.76.24 1.46.21 2.01.13.61-.09 1.9-.78 2.17-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.61-.37z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/manuel-hern%C3%A1ndez-gonzalez-845bb71ab/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="redSocial">
+              <svg class="redSocial__icono" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Navegación -->
+        <div class="footer__col">
+          <h3 class="footer__titulo">Navegación</h3>
+          <ul class="footer__links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobreMi">Sobre mí</a></li>
+            <li><a href="#conocimientos">Conocimientos</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contactoFooter">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Contacto -->
+        <div class="footer__col">
+          <h3 class="footer__titulo">Contacto</h3>
+          <ul class="footer__contacto">
+            <li>
+              <a href="mailto:manuhergonz@gmail.com">
+                <span class="footer__icono">✉</span> manuhergonz@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/34691861697" target="_blank" rel="noopener noreferrer">
+                <span class="footer__icono">📱</span> +34 691 861 697
+              </a>
+            </li>
+            <li>
+              <span class="footer__icono">📍</span> España
+            </li>
+          </ul>
+          <a href="img/cvManuHergonz.pdf" download="CV-Manuel-Hernandez-Gonzalez.pdf" class="footer__cv">Descargar CV</a>
+        </div>
+
       </div>
 
-      <div class="itemsRedes">
-        <a href="https://wa.me/691861697" target="_blank">
-          <img
-            class="logosRS wtsLogo"
-            src="./img/whatsapp3D.png"
-            alt="WhatsApp"
-        /></a>
+      <div class="footer__bottom">
+        <p>&copy; <span id="footerYear">2024</span> Manuel Hernandez Gonzalez. Todos los derechos reservados.</p>
       </div>
-
-      <div class="itemRedes">
-        <a
-          href="https://www.linkedin.com/in/manuel-hern%C3%A1ndez-gonzalez-845bb71ab/"
-          target="_blank"
-        >
-          <img
-            class="logosRS logoLin"
-            src="./img/logoIN3D.png"
-            alt="logo de linkedin"
-          />
-        </a>
-      </div>
-
-      <div class="itemsRedes">Copyright 2024</div>
     </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/34691861697" class="waFloat" target="_blank" rel="noopener noreferrer" aria-label="Contáctame por WhatsApp">
+      <span class="waFloat__tooltip">¡Escríbeme!</span>
+      <svg class="waFloat__icono" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M16.04 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.6 4.49 1.73 6.44L3.1 28.8l6.46-1.69a12.83 12.83 0 0 0 6.48 1.75h.01c7.1 0 12.87-5.77 12.87-12.87 0-3.44-1.34-6.67-3.77-9.1a12.78 12.78 0 0 0-9.1-3.69zm0 23.4h-.01a10.66 10.66 0 0 1-5.43-1.49l-.39-.23-4.03 1.06 1.08-3.93-.25-.4a10.63 10.63 0 0 1-1.63-5.69c0-5.9 4.8-10.7 10.71-10.7 2.86 0 5.55 1.11 7.57 3.14a10.63 10.63 0 0 1 3.13 7.57c0 5.9-4.8 10.69-10.7 10.69zm5.87-8.01c-.32-.16-1.9-.94-2.2-1.05-.29-.11-.5-.16-.72.16-.21.32-.82 1.05-1.01 1.27-.19.21-.37.24-.69.08-.32-.16-1.36-.5-2.59-1.6-.96-.85-1.6-1.91-1.79-2.23-.19-.32-.02-.5.14-.66.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.74-.99-2.38-.26-.62-.52-.54-.72-.55l-.61-.01c-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.66 0 1.57 1.14 3.08 1.3 3.3.16.21 2.25 3.43 5.44 4.81.76.33 1.35.52 1.81.67.76.24 1.46.21 2.01.13.61-.09 1.9-.78 2.17-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.61-.37z"/>
+      </svg>
+    </a>
 
-   
-
-    <script src="./javascript/main.js"></script>
+    <script src="javascript/main.js"></script>
   </body>
 </html>

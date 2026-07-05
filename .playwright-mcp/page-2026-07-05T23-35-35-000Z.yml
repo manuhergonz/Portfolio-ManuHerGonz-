@@ -1,0 +1,153 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "<MAHG />" [ref=e3] [cursor=pointer]:
+      - /url: "#inicio"
+    - list [ref=e4]:
+      - listitem [ref=e5]:
+        - link "Inicio" [ref=e6] [cursor=pointer]:
+          - /url: "#inicio"
+      - listitem [ref=e7]:
+        - link "Sobre mí" [ref=e8] [cursor=pointer]:
+          - /url: "#sobreMi"
+      - listitem [ref=e9]:
+        - link "Conocimientos" [ref=e10] [cursor=pointer]:
+          - /url: "#conocimientos"
+      - listitem [ref=e11]:
+        - link "Proyectos" [ref=e12] [cursor=pointer]:
+          - /url: "#proyectos"
+      - listitem [ref=e13]:
+        - link "Contacto" [ref=e14] [cursor=pointer]:
+          - /url: "#contactoFooter"
+  - generic [ref=e15]:
+    - paragraph [ref=e16]: < Hola, soy />
+    - heading "Manuel Hernandez Gonzalez" [level=1] [ref=e17]
+    - paragraph [ref=e18]: Desarrollador Web & App Mobile
+    - generic [ref=e19]:
+      - link "Conóceme" [ref=e20] [cursor=pointer]:
+        - /url: "#sobreMi"
+      - link "Ver proyectos" [ref=e21] [cursor=pointer]:
+        - /url: "#proyectos"
+    - link "Ir a la sección Sobre mí" [ref=e22] [cursor=pointer]:
+      - /url: "#sobreMi"
+  - generic [ref=e26]:
+    - img "Foto de Manuel Hernandez Gonzalez" [ref=e28]
+    - generic [ref=e29]:
+      - heading "Sobre mí" [level=2] [ref=e30]
+      - paragraph [ref=e31]: Soy un programador creativo y orientado a soluciones con una sólida formación en ciencias de la computación. Me enorgullece mi capacidad para resolver problemas complejos y desarrollar aplicaciones innovadoras. Disfruto trabajando en equipo y aprendiendo de mis colegas.
+  - generic [ref=e32]:
+    - heading "Mis Conocimientos" [level=2] [ref=e33]
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]: 
+        - generic [ref=e37]: HTML5
+      - generic [ref=e38]:
+        - generic [ref=e39]: 
+        - generic [ref=e40]: CSS3
+      - generic [ref=e41]:
+        - generic [ref=e42]: 
+        - generic [ref=e43]: JavaScript
+      - generic [ref=e44]:
+        - generic [ref=e45]: 
+        - generic [ref=e46]: Bootstrap
+      - generic [ref=e47]:
+        - generic [ref=e48]: 
+        - generic [ref=e49]: Java
+      - generic [ref=e50]:
+        - generic [ref=e51]: 
+        - generic [ref=e52]: Git
+      - generic [ref=e53]:
+        - generic [ref=e54]: 
+        - generic [ref=e55]: GitHub
+  - generic [ref=e56]:
+    - heading "Certificación" [level=2] [ref=e57]
+    - img "Certificado Nucba" [ref=e59]
+  - generic [ref=e60]:
+    - heading "Mis Proyectos" [level=2] [ref=e61]
+    - generic [ref=e62]:
+      - article [ref=e63]:
+        - generic [ref=e65]: Web
+        - heading "Portafolio Personal" [level=3] [ref=e66]
+        - paragraph [ref=e67]: Sitio web personal desarrollado desde cero con HTML, CSS y JavaScript. Diseño responsivo con animaciones CSS y tema oscuro.
+        - generic [ref=e68]:
+          - generic [ref=e69]: HTML
+          - generic [ref=e70]: CSS
+          - generic [ref=e71]: JavaScript
+          - generic [ref=e72]: Bootstrap
+        - link "Ver código" [ref=e74] [cursor=pointer]:
+          - /url: https://github.com/manuhergonz/Portfolio-ManuHerGonz-
+      - article [ref=e75]:
+        - generic [ref=e77]: App
+        - heading "Calculadora" [level=3] [ref=e78]
+        - paragraph [ref=e79]: "Aplicación de calculadora con operaciones básicas: suma, resta, multiplicación y división. Desarrollada con lógica en JavaScript puro."
+        - generic [ref=e80]:
+          - generic [ref=e81]: HTML
+          - generic [ref=e82]: CSS
+          - generic [ref=e83]: JavaScript
+        - link "Ver código" [ref=e85] [cursor=pointer]:
+          - /url: https://github.com/manuhergonz
+      - article [ref=e86]:
+        - generic [ref=e88]: Mobile
+        - heading "Próximo Proyecto" [level=3] [ref=e89]
+        - paragraph [ref=e90]: En desarrollo. ¿Tienes una idea interesante? Estoy abierto a colaboraciones y nuevos retos. Contáctame y lo hacemos realidad.
+        - generic [ref=e91]:
+          - generic [ref=e92]: Java
+          - generic [ref=e93]: Mobile
+        - link "Colaborar" [ref=e95] [cursor=pointer]:
+          - /url: https://wa.me/34691861697
+  - contentinfo [ref=e96]:
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - link "<MAHG />" [ref=e99] [cursor=pointer]:
+          - /url: "#inicio"
+        - paragraph [ref=e100]: Desarrollador Web & App Mobile. Creando soluciones digitales creativas y funcionales.
+        - generic [ref=e101]:
+          - link "GitHub" [ref=e102] [cursor=pointer]:
+            - /url: https://github.com/manuhergonz
+            - img [ref=e103]
+          - link "WhatsApp" [ref=e105] [cursor=pointer]:
+            - /url: https://wa.me/34691861697
+            - img [ref=e106]
+          - link "LinkedIn" [ref=e108] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/manuel-hern%C3%A1ndez-gonzalez-845bb71ab/
+            - img [ref=e109]
+      - generic [ref=e111]:
+        - heading "Navegación" [level=3] [ref=e112]
+        - list [ref=e113]:
+          - listitem [ref=e114]:
+            - link "Inicio" [ref=e115] [cursor=pointer]:
+              - /url: "#inicio"
+          - listitem [ref=e116]:
+            - link "Sobre mí" [ref=e117] [cursor=pointer]:
+              - /url: "#sobreMi"
+          - listitem [ref=e118]:
+            - link "Conocimientos" [ref=e119] [cursor=pointer]:
+              - /url: "#conocimientos"
+          - listitem [ref=e120]:
+            - link "Proyectos" [ref=e121] [cursor=pointer]:
+              - /url: "#proyectos"
+          - listitem [ref=e122]:
+            - link "Contacto" [ref=e123] [cursor=pointer]:
+              - /url: "#contactoFooter"
+      - generic [ref=e124]:
+        - heading "Contacto" [level=3] [ref=e125]
+        - list [ref=e126]:
+          - listitem [ref=e127]:
+            - link "✉ manuhergonz@gmail.com" [ref=e128] [cursor=pointer]:
+              - /url: mailto:manuhergonz@gmail.com
+              - generic [ref=e129]: ✉
+              - text: manuhergonz@gmail.com
+          - listitem [ref=e130]:
+            - link "📱 +34 691 861 697" [ref=e131] [cursor=pointer]:
+              - /url: https://wa.me/34691861697
+              - generic [ref=e132]: 📱
+              - text: +34 691 861 697
+          - listitem [ref=e133]:
+            - generic [ref=e134]: 📍
+            - text: España
+        - link "Descargar CV" [ref=e135] [cursor=pointer]:
+          - /url: img/cvManuHergonz.pdf
+    - paragraph [ref=e137]: © 2026 Manuel Hernandez Gonzalez. Todos los derechos reservados.
+  - link "Contáctame por WhatsApp" [ref=e138] [cursor=pointer]:
+    - /url: https://wa.me/34691861697
+    - generic: ¡Escríbeme!
+    - img [ref=e139]
